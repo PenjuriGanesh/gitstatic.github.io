@@ -1,9 +1,7 @@
 @Library("test") _
 
 pipeline {
-    agent {
-        label 'agent-label'
-    }
+    agent any
 
     stages {
 
