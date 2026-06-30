@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        stage('Create Folder') {
+        stage('Create Folder test') {
             steps {
                 sh 'mkdir -p devops'
             }
